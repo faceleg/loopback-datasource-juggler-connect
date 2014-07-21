@@ -13,7 +13,7 @@ module.exports = function(session) {
     options = options || {};
     Store.call(this, options);
     this.maxAge = options.maxAge || defaults.maxAge;
-    var coll = this.collection = schema.define('Session', {
+    var coll = this.collection = schema.define('session', {
       sid: {
         type: String,
         index: true
