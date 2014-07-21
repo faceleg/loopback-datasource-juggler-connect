@@ -31,11 +31,18 @@ module.exports = function(session) {
 
     // destroy all expired sessions after each create/update
     coll.afterSave = function(next) {
-      coll.iterate({where: {
-        expires: {lte: new Date()}
-      }}, function(obj, nexti, i) {
-        obj.destroy(nexti);
-      }, next);
+      coll.find({
+        where: {
+          expires: {
+            lte: new Date()
+          }
+        }}, function(error, sessions) {
+          sessions.forEach(function(session) {
+            session.destroy();
+          });
+
+          next();
+        });
     };
   }
 
