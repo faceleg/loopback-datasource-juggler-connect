@@ -4,9 +4,6 @@
   "description": "Loopback Datasource Juggler session store for Connect",
   "keywords": ["connect", "session", "express"],
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/BrownPaperBag/connect-loopback-datasource-juggler.git"
