@@ -1,8 +1,12 @@
 {
   "name": "connect-loopback-datasource-juggler",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Loopback Datasource Juggler session store for Connect",
-  "keywords": ["connect", "session", "express"],
+  "keywords": [
+    "connect",
+    "session",
+    "express"
+  ],
   "main": "index.js",
   "repository": {
     "type": "git",
