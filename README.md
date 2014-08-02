@@ -1,4 +1,4 @@
-# connect-loopback-datasource-juggler
+# loopback-datasource-juggler-connect
 
 Loopback Datastore Juggler session store for Connect
 
@@ -9,7 +9,7 @@ Initially forked from [connect-jugglingdb][1].
 ```
 var session = require('express-session');
 var LoopbackDatastoreJuggler = require('loopback-datastore-juggler');
-var JugglerStore = require('connect-loopback-datasource-juggler')(session);
+var JugglerStore = require('loopback-datasource-juggler-connect')(session);
 
 // create LoopbackDatastoreJugglerDB schema object - can be any supported adapter
 var schema = new LoopbackDatastoreJugglerDB.Schema('postgres', {
@@ -33,7 +33,7 @@ http://www.senchalabs.org/connect/session.html
 
 ## Features
 
-Automatic cleanup of expired sessions
+ - Automatic cleanup of expired sessions
 
 
 [1]: https://github.com/jugglingdb/connect-jugglingdb
