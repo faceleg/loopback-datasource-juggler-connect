@@ -1,5 +1,5 @@
 {
-  "name": "connect-loopback-datasource-juggler",
+  "name": "loopback-datasource-juggler-connect",
   "version": "0.0.2",
   "description": "Loopback Datasource Juggler session store for Connect",
   "keywords": [
@@ -10,11 +10,11 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/BrownPaperBag/connect-loopback-datasource-juggler.git"
+    "url": "git@github.com:BrownPaperBag/loopback-datasource-juggler-connect.git"
   },
   "author": "Michael Robinson <mike@pagesofinterest.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BrownPaperBag/connect-loopback-datasource-juggler/issues"
+    "url": "https://github.com/BrownPaperBag/loopback-datasource-juggler-connect/issues"
   }
 }
