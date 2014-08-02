@@ -1,6 +1,6 @@
 {
   "name": "loopback-datasource-juggler-connect",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Loopback Datasource Juggler session store for Connect",
   "keywords": [
     "connect",
