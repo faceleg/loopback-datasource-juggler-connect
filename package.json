@@ -10,11 +10,11 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:BrownPaperBag/loopback-datasource-juggler-connect.git"
+    "url": "git@github.com:faceleg/loopback-datasource-juggler-connect.git"
   },
   "author": "Michael Robinson <mike@pagesofinterest.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BrownPaperBag/loopback-datasource-juggler-connect/issues"
+    "url": "https://github.com/faceleg/loopback-datasource-juggler-connect/issues"
   }
 }
